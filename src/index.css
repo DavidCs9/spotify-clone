@@ -5,3 +5,38 @@
 #preview {
     background: linear-gradient(90deg, rgba(96, 0, 71, 1) 0%, rgba(130, 78, 168, 1) 35%, rgba(66, 178, 228, 1) 100%);
 }
+
+#main button {
+    text-align: left;
+}
+
+@media (max-width: 1600px) {
+    #nav-2 {
+        height: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+    #sidebar {
+        display: none;
+    }
+
+    #main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    #main header {
+        width: 100%;
+    }
+
+    #main #comunities {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

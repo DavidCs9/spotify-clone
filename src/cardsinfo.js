@@ -42,3 +42,48 @@ export const infoFocus = [
     description: 'Scores and soundtracks for daring quests, epic...'
   }
 ]
+
+export const infoSpotifyPlaylists = [
+  {
+    id: 1,
+    img: '/second/taylor.jpeg',
+    title: 'Todays Top Hits',
+    description: 'Taylor Swift is on top of the Hottest 50!'
+  },
+  {
+    id: 2,
+    img: '/second/rapcaviar.jpeg',
+    title: 'RapCaviar',
+    description: 'New music from Moneybagg Yo, Gunna and Metro..'
+  },
+  {
+    id: 3,
+    img: '/second/bruno.jpeg',
+    title: 'All Out 2010s',
+    description: 'The biggest songs of the 2010s.'
+  },
+  {
+    id: 4,
+    img: '/second/rock.jpeg',
+    title: 'Rock Classics',
+    description: 'Rock legends & epic songs that continue to inspire...'
+  },
+  {
+    id: 5,
+    img: '/second/chill.jpeg',
+    title: 'Chill Hits',
+    description: 'Kick back to the best new and recent chill hits.'
+  },
+  {
+    id: 6,
+    img: '/second/viva.jpeg',
+    title: 'Viva Latino',
+    description: 'Todays top latin hits, elevando nuestra musica...'
+  },
+  {
+    id: 7,
+    img: '/second/mega.jpeg',
+    title: 'Mega Hits Mix',
+    description: 'A mega mix of last 75 favorites from last years!'
+  }
+]

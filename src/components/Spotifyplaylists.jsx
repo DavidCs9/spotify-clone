@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import { Card } from './Card'
-import { infoFocus } from '../cardsinfo'
+import { infoSpotifyPlaylists } from '../cardsinfo'
 
-export function Focus () {
+export function Spotifyplaylists () {
   const [isMobile, setIsMobile] = useState(false)
 
   useEffect(() => {
@@ -20,15 +20,15 @@ export function Focus () {
 
   return (
     <div className='p-6'>
-      <h2 className='text-white text-3xl font-semmibold mb-6'>Focus</h2>
+      <h2 className='text-white text-3xl font-semmibold mb-6'>Spotify Playlists</h2>
       <div className='flex justify-between flex-wrap'>
-        <Card {...infoFocus[0]} />
-        <Card {...infoFocus[1]} />
-        <Card {...infoFocus[2]} />
-        <Card {...infoFocus[3]} />
-        {!isMobile && <Card {...infoFocus[4]} />}
-        {!isMobile && <Card {...infoFocus[5]} />}
-        <Card {...infoFocus[6]} />
+        <Card {...infoSpotifyPlaylists[0]} />
+        <Card {...infoSpotifyPlaylists[1]} />
+        <Card {...infoSpotifyPlaylists[2]} />
+        <Card {...infoSpotifyPlaylists[3]} />
+        {!isMobile && <Card {...infoSpotifyPlaylists[4]} />}
+        {!isMobile && <Card {...infoSpotifyPlaylists[5]} />}
+        <Card {...infoSpotifyPlaylists[6]} />
       </div>
     </div>
   )
