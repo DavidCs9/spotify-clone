@@ -20,7 +20,10 @@ export function Spotifyplaylists () {
 
   return (
     <div className='p-6'>
-      <h2 className='text-white text-3xl font-semmibold mb-6'>Spotify Playlists</h2>
+      <div className='flex justify-between mb-6'>
+        <h2 className='text-white text-2xl font-bold '>Spotify playlists</h2>
+        <h2 className=' text-spotify-font-gray font-semibold text-sm hover:underline cursor-pointer'>Show all</h2>
+      </div>
       <div className='flex justify-between flex-wrap'>
         <Card {...infoSpotifyPlaylists[0]} />
         <Card {...infoSpotifyPlaylists[1]} />
