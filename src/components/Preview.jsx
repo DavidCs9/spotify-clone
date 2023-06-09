@@ -5,7 +5,7 @@ export function Preview () {
         <h3 className='text-sm font-light'>PREVIEW OF SPOTIFY</h3>
         <p className=' text-base font-semibold'>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
       </div>
-      <button className=' bg-slate-200 hover:bg-white text-gray-950 px-7 py-2 rounded-full font-bold shadow-md '>Sign up free</button>
+      <button className=' bg-slate-200 hover:bg-black hover:text-white text-gray-950 px-7 py-2 rounded-full font-bold shadow-md '>Sign up free</button>
     </footer>
   )
 }
