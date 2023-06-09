@@ -10,3 +10,5 @@ Desde la terminal
 3. git commit -m "Primer commit"
 4. git remote add origin https://github.com/DavidCs9/spotify-clone.git
 5. git push -u origin master
+
+![image](https://github.com/DavidCs9/spotify-clone/assets/105255351/3403d274-09ec-4dbe-8c08-e3833d5fdeee)
