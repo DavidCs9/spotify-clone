@@ -24,7 +24,7 @@ export function Focus () {
         <h2 className='text-white text-2xl font-bold '>Focus</h2>
         <h2 className=' text-spotify-font-gray font-semibold text-sm hover:underline cursor-pointer'>Show all</h2>
       </div>
-      <div className='flex justify-between flex-wrap'>
+      <div className='flex justify-between flex-wrap playlist'>
         <Card {...infoFocus[0]} />
         <Card {...infoFocus[1]} />
         <Card {...infoFocus[2]} />

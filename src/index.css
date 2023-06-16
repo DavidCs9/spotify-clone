@@ -39,4 +39,22 @@
         flex-direction: column;
     }
 
+    .playlist {
+        display: flex;
+        gap: 15px;
+    }
+
+    #card {
+        width: 160px;
+    }
+
+    #preview {
+        font-size: small;
+        height: 60px;
+    }
+
+    .text-preview {
+        font-size: 9px;
+    }
+
 }
