@@ -1,6 +1,6 @@
-Examen Desarrollador FrontEnd - PID electronics
+# Examen Desarrollador FrontEnd - PID electronics
 
-Este proyecto es un clon del Landing Page de Spotify, desarrollado utilizando React y Tailwind CSS.
+#### Este proyecto es un clon del Landing Page de Spotify, desarrollado utilizando React y Tailwind CSS.
 Puedes visitar en el siguiente link: https://spotify-clone-two-tau.vercel.app/
 
 Crear repositorio publico en github
